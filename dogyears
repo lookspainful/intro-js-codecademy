@@ -1,0 +1,24 @@
+//It's my age lol
+let myAge = 100;
+
+//Why am I writing comments to explain this. It's a variable man.
+let earlyYears = 2;
+
+earlyYears *= 10.5;
+
+//Explaining this incredibly difficult math
+let laterYears = myAge - 2;
+
+//The commenting for this is a little nuts
+laterYears *= 4;
+
+console.log(earlyYears + ' ' +  laterYears);
+
+//Adding the values together to get my age in dog years.
+let myAgeInDogYears = earlyYears + laterYears;
+
+//holy fuck
+let myName = 'SPENCER'.toLowerCase();
+
+//Printing all the stuff
+console.log(`My name is ${myName}. I am ${myAge} years old in human years, which is ${myAgeInDogYears} years old in dog years.`);
