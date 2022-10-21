@@ -1,9 +1,9 @@
 let raceNumber = Math.floor(Math.random() * 1000);
 
-let earlyRegister = false;
+let earlyRegister = true;
 let runnerAge;
 
-if (runnerAge >= 18 && earlyRegister === true)
+if (runnerAge >= 18 && earlyRegister === false)
 {
   raceNumber += 1000;
   console.log(`Early registrants begin at 9:30am. Your number is ${raceNumber}.`);
